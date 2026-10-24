@@ -14,20 +14,20 @@ position = Vector2(576, 323.99997)
 scale = Vector2(1.0230906, 1.007776)
 texture = ExtResource("1_hppyo")
 
-[node name="Pillv1(1)2" type="Sprite2D" parent="." unique_id=996223062]
+[node name="pilla2" type="Sprite2D" parent="." unique_id=996223062]
 position = Vector2(480.8958, 368.1374)
 scale = Vector2(0.9977055, 1)
 texture = ExtResource("2_t5y7p")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)2" unique_id=1893070616]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pilla2" unique_id=1893070616]
 position = Vector2(-2.939087, -120.523926)
 shape = SubResource("RectangleShape2D_gtqoq")
 debug_color = Color(0.62033737, 0.4453141, 0.76703334, 0.41960785)
 
-[node name="Pillv1(1)" type="Sprite2D" parent="." unique_id=949160764]
+[node name="pilla1" type="Sprite2D" parent="." unique_id=949160764]
 position = Vector2(-476.00867, 381.03705)
 texture = ExtResource("2_t5y7p")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)" unique_id=1882835619]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="pilla1" unique_id=1882835619]
 position = Vector2(-2.9323425, -120.5238)
 shape = SubResource("RectangleShape2D_aailo")
