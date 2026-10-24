@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://3pgippphvsmm"]
+
+[ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_1bcrd"]
+[ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_p65l6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
+size = Vector2(168, 274)
+
+[node name="Node2D" type="Node2D" unique_id=1384845719]
+
+[node name="DaSkyi" type="Sprite2D" parent="." unique_id=1851459674]
+position = Vector2(576, 324)
+scale = Vector2(1.0230906, 1.0077761)
+texture = ExtResource("1_1bcrd")
+
+[node name="Pillv1(1)" type="Sprite2D" parent="." unique_id=111084346]
+position = Vector2(88, 681)
+texture = ExtResource("2_p65l6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)" unique_id=1303502898]
+position = Vector2(-5, -115)
+shape = SubResource("RectangleShape2D_gtqoq")
+
+[node name="Pillv1(1)2" type="Sprite2D" parent="." unique_id=64815618]
+position = Vector2(1069, 705)
+texture = ExtResource("2_p65l6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1666275364]
+position = Vector2(1066, 593)
+shape = SubResource("RectangleShape2D_gtqoq")
