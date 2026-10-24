@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://d1hb8vr463wjl"]
+
+[ext_resource type="Texture2D" path="res://da_skyi.webp" id="1_hppyo"]
+[ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_t5y7p"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
+size = Vector2(168.50464, 261.04785)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aailo"]
+size = Vector2(164.20831, 261.0481)
+
+[node name="DaSkyi" type="Sprite2D" unique_id=2050165603]
+position = Vector2(576, 323.99997)
+scale = Vector2(1.0230906, 1.007776)
+texture = ExtResource("1_hppyo")
+
+[node name="Pillv1(1)2" type="Sprite2D" parent="." unique_id=996223062]
+position = Vector2(480.8958, 368.1374)
+scale = Vector2(0.9977055, 1)
+texture = ExtResource("2_t5y7p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)2" unique_id=1893070616]
+position = Vector2(-2.939087, -120.523926)
+shape = SubResource("RectangleShape2D_gtqoq")
+debug_color = Color(0.62033737, 0.4453141, 0.76703334, 0.41960785)
+
+[node name="Pillv1(1)" type="Sprite2D" parent="." unique_id=949160764]
+position = Vector2(-476.00867, 381.03705)
+texture = ExtResource("2_t5y7p")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)" unique_id=1882835619]
+position = Vector2(-2.9323425, -120.5238)
+shape = SubResource("RectangleShape2D_aailo")
