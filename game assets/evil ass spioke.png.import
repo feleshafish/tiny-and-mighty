@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://03u53haoroj"
-path="res://.godot/imported/da_skyi.webp-9bcbd82555a6de73d91050a3faf44b70.ctex"
+uid="uid://flfeqtgq1yy4"
+path="res://.godot/imported/evil ass spioke.png-ebd2aa1ddbf55ff00c1b31054975e99c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://da_skyi.webp"
-dest_files=["res://.godot/imported/da_skyi.webp-9bcbd82555a6de73d91050a3faf44b70.ctex"]
+source_file="res://game assets/evil ass spioke.png"
+dest_files=["res://.godot/imported/evil ass spioke.png-ebd2aa1ddbf55ff00c1b31054975e99c.ctex"]
 
 [params]
 
