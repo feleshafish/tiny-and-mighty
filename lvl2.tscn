@@ -3,9 +3,28 @@
 [ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_1bcrd"]
 [ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_p65l6"]
 [ext_resource type="Texture2D" uid="uid://flfeqtgq1yy4" path="res://game assets/evil ass spioke.png" id="3_p65l6"]
+[ext_resource type="Texture2D" uid="uid://mm33rw8o6ek1" path="res://game assets/leprechaun sprite-1.png.png" id="4_chaov"]
+[ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="5_o0rcv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
 size = Vector2(168, 276)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uxc53"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_chaov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_o0rcv")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_exjfu"]
+size = Vector2(98, 125.25005)
 
 [node name="Node2D" type="Node2D" unique_id=1384845719]
 
@@ -123,3 +142,18 @@ texture = ExtResource("3_p65l6")
 
 [node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke13" unique_id=1848743913]
 polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
+[node name="Leprechaun" type="CharacterBody2D" parent="." unique_id=1701581556]
+position = Vector2(96, 363)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Leprechaun" unique_id=1921146350]
+position = Vector2(8.000015, 7.000046)
+scale = Vector2(0.59000003, 0.5810001)
+sprite_frames = SubResource("SpriteFrames_uxc53")
+frame_progress = 0.36606142
+speed_scale = 0.5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Leprechaun" unique_id=865547030]
+position = Vector2(13, 2.375)
+scale = Vector2(1, 0.99999994)
+shape = SubResource("RectangleShape2D_exjfu")
