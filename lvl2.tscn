@@ -23,6 +23,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_exjfu"]
 size = Vector2(98, 125.25005)
 
+[sub_resource type="TileSet" id="TileSet_chaov"]
+
 [node name="Node2D" type="Node2D" unique_id=1384845719]
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=1851459674]
@@ -140,3 +142,4 @@ scale = Vector2(1, 0.99999994)
 shape = SubResource("RectangleShape2D_exjfu")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1914657323]
+tile_set = SubResource("TileSet_chaov")
