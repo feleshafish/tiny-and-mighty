@@ -27,7 +27,7 @@ shape = SubResource("RectangleShape2D_gtqoq")
 position = Vector2(1069, 705)
 texture = ExtResource("2_p65l6")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)2" unique_id=1666275364]
+[node name="killbox" type="CollisionShape2D" parent="Pillv1(1)2" unique_id=1666275364]
 visible = false
 position = Vector2(-3, -113)
 shape = SubResource("RectangleShape2D_gtqoq")
@@ -36,50 +36,90 @@ shape = SubResource("RectangleShape2D_gtqoq")
 position = Vector2(202, 645)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke" unique_id=2139230585]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke2" type="Sprite2D" parent="." unique_id=2023211155]
 position = Vector2(263, 647)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke2" unique_id=639847188]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
 
 [node name="EvilAssSpioke3" type="Sprite2D" parent="." unique_id=1520539392]
 position = Vector2(324.5, 645.5)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke3" unique_id=13365672]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke4" type="Sprite2D" parent="." unique_id=2047666909]
 position = Vector2(385.5, 647.5)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke4" unique_id=267236419]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
 
 [node name="EvilAssSpioke5" type="Sprite2D" parent="." unique_id=814483195]
 position = Vector2(448.5, 649.5)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke5" unique_id=2000403056]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke6" type="Sprite2D" parent="." unique_id=1267086612]
 position = Vector2(509.5, 651.5)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke6" unique_id=899976214]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
 
 [node name="EvilAssSpioke7" type="Sprite2D" parent="." unique_id=257226928]
 position = Vector2(571, 650)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke7" unique_id=1011993251]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke8" type="Sprite2D" parent="." unique_id=1455000148]
 position = Vector2(632, 652)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke8" unique_id=230023326]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
 
 [node name="EvilAssSpioke9" type="Sprite2D" parent="." unique_id=1499866091]
 position = Vector2(694.5, 652.5)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke9" unique_id=663026451]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke10" type="Sprite2D" parent="." unique_id=549932822]
 position = Vector2(759, 655)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke10" unique_id=271689673]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
 
 [node name="EvilAssSpioke11" type="Sprite2D" parent="." unique_id=1950345418]
 position = Vector2(821, 653)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke11" unique_id=77795993]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke12" type="Sprite2D" parent="." unique_id=644095889]
 position = Vector2(886, 656)
 texture = ExtResource("3_p65l6")
 
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke12" unique_id=1200067739]
+position = Vector2(1, 0)
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
+
 [node name="EvilAssSpioke13" type="Sprite2D" parent="." unique_id=1273181734]
 position = Vector2(951, 655)
 texture = ExtResource("3_p65l6")
+
+[node name="killbox" type="CollisionPolygon2D" parent="EvilAssSpioke13" unique_id=1848743913]
+polygon = PackedVector2Array(-12, -12, -27, -9, -1, -97, 30, -8)
