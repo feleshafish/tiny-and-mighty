@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1apfmej8326t"
-path="res://.godot/imported/pillv2 (1).png-f97fa098b9b0aa1a31b8419c1ebd28cb.ctex"
+uid="uid://cxvo5qcgdciq7"
+path="res://.godot/imported/pillv1 (1).png-8145f7668c3c911b1cbd6339960444b0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pillv2 (1).png"
-dest_files=["res://.godot/imported/pillv2 (1).png-f97fa098b9b0aa1a31b8419c1ebd28cb.ctex"]
+source_file="res://game assets/pillv1 (1).png"
+dest_files=["res://.godot/imported/pillv1 (1).png-8145f7668c3c911b1cbd6339960444b0.ctex"]
 
 [params]
 

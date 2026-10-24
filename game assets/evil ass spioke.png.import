@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxvo5qcgdciq7"
-path="res://.godot/imported/pillv1 (1).png-361a39ca8f8ebbbe00cf71cc449f6d13.ctex"
+uid="uid://flfeqtgq1yy4"
+path="res://.godot/imported/evil ass spioke.png-ebd2aa1ddbf55ff00c1b31054975e99c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://pillv1 (1).png"
-dest_files=["res://.godot/imported/pillv1 (1).png-361a39ca8f8ebbbe00cf71cc449f6d13.ctex"]
+source_file="res://game assets/evil ass spioke.png"
+dest_files=["res://.godot/imported/evil ass spioke.png-ebd2aa1ddbf55ff00c1b31054975e99c.ctex"]
 
 [params]
 
