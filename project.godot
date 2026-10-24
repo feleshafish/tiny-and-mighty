@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="tinya"
-run/main_scene="uid://3pgippphvsmm"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
+<<<<<<<HEADrun/main_scene="uid://qe6soob5hr04"
 
 [display]
 
