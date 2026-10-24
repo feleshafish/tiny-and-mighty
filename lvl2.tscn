@@ -27,9 +27,9 @@ shape = SubResource("RectangleShape2D_gtqoq")
 position = Vector2(1069, 705)
 texture = ExtResource("2_p65l6")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1666275364]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)2" unique_id=1666275364]
 visible = false
-position = Vector2(1066, 592)
+position = Vector2(-3, -113)
 shape = SubResource("RectangleShape2D_gtqoq")
 
 [node name="EvilAssSpioke" type="Sprite2D" parent="." unique_id=1728688087]
