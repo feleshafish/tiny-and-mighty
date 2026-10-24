@@ -11,6 +11,10 @@ config_version=5
 [application]
 
 config/name="tinya"
+<<<<<<< HEAD
+=======
+run/main_scene="uid://qe6soob5hr04"
+>>>>>>> aa2b89913e6895b465d0fe36684a4a68766753f3
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 
