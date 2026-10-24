@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://43g8gpl85gh7"]
+
+[ext_resource type="Texture2D" uid="uid://dctv7lmf5x3vb" path="res://game assets/New Piskel-3.png.png" id="1_xjasr"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
+size = Vector2(159, 22)
+
+[node name="Mighty Hand" type="Node" unique_id=1448176671]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=359149852]
+position = Vector2(262, 162)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="CharacterBody2D" unique_id=860958872]
+position = Vector2(-10, 20)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=849948032]
+position = Vector2(-1.9999924, -0.9999924)
+scale = Vector2(4.1600003, 3.3700004)
+texture = ExtResource("1_xjasr")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=1797323703]
+position = Vector2(-10, 20)
+shape = SubResource("RectangleShape2D_r7ajf")
