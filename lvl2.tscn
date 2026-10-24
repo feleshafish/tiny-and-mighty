@@ -2,6 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_1bcrd"]
 [ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_p65l6"]
+[ext_resource type="Texture2D" uid="uid://flfeqtgq1yy4" path="res://game assets/evil ass spioke.png" id="3_p65l6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
 size = Vector2(168, 276)
@@ -18,6 +19,7 @@ position = Vector2(88, 681)
 texture = ExtResource("2_p65l6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Pillv1(1)" unique_id=1303502898]
+visible = false
 position = Vector2(-3, -113)
 shape = SubResource("RectangleShape2D_gtqoq")
 
@@ -26,5 +28,58 @@ position = Vector2(1069, 705)
 texture = ExtResource("2_p65l6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1666275364]
+visible = false
 position = Vector2(1066, 592)
 shape = SubResource("RectangleShape2D_gtqoq")
+
+[node name="EvilAssSpioke" type="Sprite2D" parent="." unique_id=1728688087]
+position = Vector2(202, 645)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke2" type="Sprite2D" parent="." unique_id=2023211155]
+position = Vector2(263, 647)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke3" type="Sprite2D" parent="." unique_id=1520539392]
+position = Vector2(324.5, 645.5)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke4" type="Sprite2D" parent="." unique_id=2047666909]
+position = Vector2(385.5, 647.5)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke5" type="Sprite2D" parent="." unique_id=814483195]
+position = Vector2(448.5, 649.5)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke6" type="Sprite2D" parent="." unique_id=1267086612]
+position = Vector2(509.5, 651.5)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke7" type="Sprite2D" parent="." unique_id=257226928]
+position = Vector2(571, 650)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke8" type="Sprite2D" parent="." unique_id=1455000148]
+position = Vector2(632, 652)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke9" type="Sprite2D" parent="." unique_id=1499866091]
+position = Vector2(694.5, 652.5)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke10" type="Sprite2D" parent="." unique_id=549932822]
+position = Vector2(759, 655)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke11" type="Sprite2D" parent="." unique_id=1950345418]
+position = Vector2(821, 653)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke12" type="Sprite2D" parent="." unique_id=644095889]
+position = Vector2(886, 656)
+texture = ExtResource("3_p65l6")
+
+[node name="EvilAssSpioke13" type="Sprite2D" parent="." unique_id=1273181734]
+position = Vector2(951, 655)
+texture = ExtResource("3_p65l6")
