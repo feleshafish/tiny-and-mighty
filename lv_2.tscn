@@ -1,3 +1,12 @@
 [gd_scene format=3 uid="uid://dafufc010h20k"]
 
+[ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_yeog8"]
+
 [node name="lv_2" type="Node2D" unique_id=1326747302]
+
+[node name="DaSkyi" type="Sprite2D" parent="." unique_id=931060689]
+position = Vector2(576, 324)
+scale = Vector2(1.0230906, 1.007776)
+texture = ExtResource("1_yeog8")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=2084265189]
