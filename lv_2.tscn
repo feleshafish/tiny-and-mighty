@@ -7,6 +7,8 @@
 [ext_resource type="Script" uid="uid://07u3hamh1byp" path="res://leprechaun.gd" id="5_n8wlm"]
 [ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="6_kwafe"]
 [ext_resource type="Texture2D" uid="uid://mm33rw8o6ek1" path="res://game assets/leprechaun sprite-1.png.png" id="6_n8wlm"]
+[ext_resource type="Script" uid="uid://dg8xy3ivai3y0" path="res://mighty_hand.gd" id="7_wrlwn"]
+[ext_resource type="Texture2D" uid="uid://dctv7lmf5x3vb" path="res://game assets/New Piskel-3.png.png" id="8_oday4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kwafe"]
 texture = ExtResource("2_4m1rf")
@@ -1224,10 +1226,13 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
 size = Vector2(77.5, 99.5)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
+size = Vector2(142, 33.5)
+
 [node name="lv_2" type="Node2D" unique_id=1326747302]
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=931060689]
-position = Vector2(576, 324)
+position = Vector2(574, 321.00003)
 scale = Vector2(1.0230906, 1.007776)
 texture = ExtResource("1_yeog8")
 
@@ -1250,3 +1255,15 @@ frame_progress = 0.39611086
 physics_interpolation_mode = 1
 position = Vector2(117.25, 387.25)
 shape = SubResource("RectangleShape2D_gtqoq")
+
+[node name="Mighty Hand" type="CharacterBody2D" parent="." unique_id=1787583752]
+script = ExtResource("7_wrlwn")
+
+[node name="Sprite2D" type="Sprite2D" parent="Mighty Hand" unique_id=1415217671]
+position = Vector2(234, 192.00003)
+scale = Vector2(4.0599995, 3.5199995)
+texture = ExtResource("8_oday4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mighty Hand" unique_id=1514134392]
+position = Vector2(235, 214.25)
+shape = SubResource("RectangleShape2D_r7ajf")
