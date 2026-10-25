@@ -9,12 +9,9 @@ const JUMP_VELOCITY = -400.0
 
 #animated movement
 func _process(_delta):
-	if Input.is_action_pressed("walk_right"):
+	if Input.is_action_pressed("walk_left"):
 		player_sprite.play("run")
-	else:
-		player_sprite.stop()
-
-	if Input.is_action_pressed("walk_right"):
+	elif Input.is_action_pressed("walk_right"):
 		player_sprite.play("run")
 	else:
 		player_sprite.stop()
