@@ -1324,7 +1324,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q8fjq"]
-size = Vector2(77.5, 99.5)
+size = Vector2(72, 97.5)
 
 [node name="lv3" type="Node2D" unique_id=1155211408]
 
@@ -1361,5 +1361,5 @@ animation = &"run"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Leprechaun" unique_id=1436919998]
 physics_interpolation_mode = 1
-position = Vector2(117.25, 387.25)
+position = Vector2(118, 386.25)
 shape = SubResource("RectangleShape2D_q8fjq")
