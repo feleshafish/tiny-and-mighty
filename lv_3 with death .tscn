@@ -1329,7 +1329,7 @@ animations = [{
 size = Vector2(72, 97.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
-size = Vector2(647, 189)
+size = Vector2(647, 214)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
 size = Vector2(95.25, 113.5)
@@ -1392,7 +1392,7 @@ shape = SubResource("RectangleShape2D_q8fjq")
 script = ExtResource("11_pto8v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=1402829126]
-position = Vector2(872.5, 284.5)
+position = Vector2(872.5, 297)
 shape = SubResource("RectangleShape2D_r7ajf")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=238900142]
