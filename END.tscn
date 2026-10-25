@@ -1385,6 +1385,10 @@ size = Vector2(72, 97.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_l22p0"]
 size = Vector2(142, 33.5)
 
+[sub_resource type="LabelSettings" id="LabelSettings_gtqoq"]
+font_size = 26
+font_color = Color(0, 0, 0, 1)
+
 [node name="Node2D" type="Node2D" unique_id=877125619]
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=1004749687]
@@ -1444,3 +1448,11 @@ offset_bottom = 732.0
 grow_horizontal = 0
 grow_vertical = 2
 texture = ExtResource("9_ss446")
+
+[node name="Label2" type="Label" parent="." unique_id=991417095]
+offset_left = 956.0
+offset_top = 430.0
+offset_right = 1171.0
+offset_bottom = 563.0
+text = "heres ya gold (:"
+label_settings = SubResource("LabelSettings_gtqoq")
