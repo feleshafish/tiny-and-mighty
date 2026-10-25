@@ -1217,7 +1217,7 @@ animations = [{
 "texture": ExtResource("6_kwafe")
 }],
 "loop": 1,
-"name": &"default",
+"name": &"run",
 "speed": 5.0
 }]
 
@@ -1243,6 +1243,7 @@ script = ExtResource("5_n8wlm")
 position = Vector2(115.25, 386.75)
 scale = Vector2(0.47, 0.46599993)
 sprite_frames = SubResource("SpriteFrames_uxc53")
+animation = &"run"
 speed_scale = 0.5
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Leprechaun" unique_id=1292572088]
