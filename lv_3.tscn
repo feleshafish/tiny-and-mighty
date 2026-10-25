@@ -11,6 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://mm33rw8o6ek1" path="res://game assets/leprechaun sprite-1.png.png" id="8_yab02"]
 [ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="9_gr6wq"]
 [ext_resource type="Script" uid="uid://dixvhgniyy7pt" path="res://spikes.gd" id="11_1l147"]
+[ext_resource type="Script" uid="uid://b1saco1vh813w" path="res://coinnn_1.gd" id="12_0d7u6"]
+[ext_resource type="PackedScene" uid="uid://bpjor3ghdpt5n" path="res://lv_4.tscn" id="13_col4l"]
+[ext_resource type="Texture2D" uid="uid://ncw31uwgqou0" path="res://game assets/coin.png" id="14_q8fjq"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1l147"]
 texture = ExtResource("2_54lrk")
@@ -1319,6 +1322,8 @@ size = Vector2(607.5, 106.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
 size = Vector2(117, 131)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e4wc8"]
+
 [node name="lv3" type="Node2D" unique_id=1155211408]
 script = ExtResource("1_yk7la")
 
@@ -1384,3 +1389,18 @@ polygon = PackedVector2Array(924.4255, 637.46844, 950, 553, 979, 639)
 
 [node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Spikes" unique_id=706435309]
 polygon = PackedVector2Array(519, 190, 518, 294, 547, 382, 549, 189)
+
+[node name="coinnn1" type="Area2D" parent="." unique_id=1767308074]
+position = Vector2(1075, 343)
+scale = Vector2(2.96875, 2.6875)
+script = ExtResource("12_0d7u6")
+next_scene = ExtResource("13_col4l")
+
+[node name="Coin" type="Sprite2D" parent="coinnn1" unique_id=697351470]
+position = Vector2(-3.8736844, 83.72093)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("14_q8fjq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="coinnn1" unique_id=205673484]
+position = Vector2(-3.8736844, 83.72093)
+shape = SubResource("RectangleShape2D_e4wc8")

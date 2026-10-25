@@ -1,5 +1,6 @@
 [gd_scene format=4 uid="uid://dafufc010h20k"]
 
+[ext_resource type="Texture2D" uid="uid://ncw31uwgqou0" path="res://game assets/coin.png" id="1_32crq"]
 [ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_yeog8"]
 [ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_4m1rf"]
 [ext_resource type="Texture2D" uid="uid://1apfmej8326t" path="res://game assets/pillv2 (1).png" id="3_f7d06"]
@@ -10,6 +11,8 @@
 [ext_resource type="Script" uid="uid://dg8xy3ivai3y0" path="res://mighty_hand.gd" id="7_wrlwn"]
 [ext_resource type="Texture2D" uid="uid://dctv7lmf5x3vb" path="res://game assets/New Piskel-3.png.png" id="8_oday4"]
 [ext_resource type="Script" uid="uid://bp6vc7f5xhdul" path="res://area_2d.gd" id="10_gr2kh"]
+[ext_resource type="Script" uid="uid://b1saco1vh813w" path="res://coinnn_1.gd" id="10_mri4p"]
+[ext_resource type="PackedScene" uid="uid://b6dpnw1k7r7l4" path="res://lv_3.tscn" id="11_8m2ov"]
 
 [sub_resource type="GDScript" id="GDScript_7ftjq"]
 script/source = "extends Node2D
@@ -1288,6 +1291,8 @@ size = Vector2(77.5, 99.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
 size = Vector2(142, 33.5)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aailo"]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
 size = Vector2(878, 140)
 
@@ -1295,7 +1300,7 @@ size = Vector2(878, 140)
 script = SubResource("GDScript_7ftjq")
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=931060689]
-position = Vector2(574, 321.00003)
+position = Vector2(582.00006, 312)
 scale = Vector2(1.0230906, 1.007776)
 texture = ExtResource("1_yeog8")
 
@@ -1330,6 +1335,21 @@ texture = ExtResource("8_oday4")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Mighty Hand" unique_id=1514134392]
 position = Vector2(235, 214.25)
 shape = SubResource("RectangleShape2D_r7ajf")
+
+[node name="coinnn1" type="Area2D" parent="." unique_id=1549373105]
+position = Vector2(1075, 343)
+scale = Vector2(2.96875, 2.6875)
+script = ExtResource("10_mri4p")
+next_scene = ExtResource("11_8m2ov")
+
+[node name="Coin" type="Sprite2D" parent="coinnn1" unique_id=1138869116]
+position = Vector2(1.8526317, 13.395349)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("1_32crq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="coinnn1" unique_id=1023766204]
+position = Vector2(1.8526317, 13.3953495)
+shape = SubResource("RectangleShape2D_aailo")
 
 [node name="Spikes" type="Area2D" parent="." unique_id=346564931]
 script = ExtResource("10_gr2kh")
