@@ -1329,13 +1329,13 @@ animations = [{
 size = Vector2(72, 97.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
-size = Vector2(689, 193)
+size = Vector2(647, 189)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
 size = Vector2(95.25, 113.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3ef4i"]
-size = Vector2(607.5, 106.5)
+size = Vector2(607.5, 102)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
 size = Vector2(117, 131)
@@ -1346,11 +1346,14 @@ size = Vector2(56, 77.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gb6tw"]
 size = Vector2(29, 74)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bwhgv"]
+size = Vector2(51, 138.5)
+
 [node name="lv3" type="Node2D" unique_id=1155211408]
 script = ExtResource("1_xg0x6")
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=637054091]
-position = Vector2(576, 324)
+position = Vector2(575, 323.00003)
 scale = Vector2(1.0230906, 1.007776)
 texture = ExtResource("2_wj0fv")
 
@@ -1389,7 +1392,7 @@ shape = SubResource("RectangleShape2D_q8fjq")
 script = ExtResource("11_pto8v")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=1402829126]
-position = Vector2(851.5, 286.5)
+position = Vector2(872.5, 284.5)
 shape = SubResource("RectangleShape2D_r7ajf")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=238900142]
@@ -1397,7 +1400,7 @@ position = Vector2(110.375, 592.25)
 shape = SubResource("RectangleShape2D_iei88")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Spikes" unique_id=1975461404]
-position = Vector2(679.25, 694.75)
+position = Vector2(679.25, 697)
 shape = SubResource("RectangleShape2D_3ef4i")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="Spikes" unique_id=941620271]
@@ -1411,5 +1414,9 @@ shape = SubResource("RectangleShape2D_w10cd")
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="Spikes" unique_id=2119079728]
 position = Vector2(952, 581)
 shape = SubResource("RectangleShape2D_gb6tw")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="Spikes" unique_id=1366171788]
+position = Vector2(547, 258)
+shape = SubResource("RectangleShape2D_bwhgv")
 
 [connection signal="body_entered" from="Spikes" to="." method="_on_spikes_body_entered"]
