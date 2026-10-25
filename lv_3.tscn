@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://b6dpnw1k7r7l4"]
 
 [ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_0yapr"]
+[ext_resource type="Script" uid="uid://c77h6puxxp2aw" path="res://lv_3.gd" id="1_yk7la"]
 [ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_54lrk"]
 [ext_resource type="Texture2D" uid="uid://1apfmej8326t" path="res://game assets/pillv2 (1).png" id="3_gfe5q"]
 [ext_resource type="Texture2D" uid="uid://flfeqtgq1yy4" path="res://game assets/evil ass spioke.png" id="4_s3sri"]
@@ -1326,7 +1327,11 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q8fjq"]
 size = Vector2(72, 97.5)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
+size = Vector2(689, 193)
+
 [node name="lv3" type="Node2D" unique_id=1155211408]
+script = ExtResource("1_yk7la")
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=637054091]
 position = Vector2(576, 324)
@@ -1363,3 +1368,9 @@ animation = &"run"
 physics_interpolation_mode = 1
 position = Vector2(118, 386.25)
 shape = SubResource("RectangleShape2D_q8fjq")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=1188594054]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1402829126]
+position = Vector2(851.5, 286.5)
+shape = SubResource("RectangleShape2D_r7ajf")

@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://bpjor3ghdpt5n"]
 
 [ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_5yb53"]
+[ext_resource type="Script" uid="uid://455fbhwreo4e" path="res://lv_4.gd" id="1_sd8pv"]
 [ext_resource type="Texture2D" uid="uid://cxvo5qcgdciq7" path="res://game assets/pillv1 (1).png" id="2_sd8pv"]
 [ext_resource type="Texture2D" uid="uid://1apfmej8326t" path="res://game assets/pillv2 (1).png" id="3_j1xc6"]
 [ext_resource type="Texture2D" uid="uid://flfeqtgq1yy4" path="res://game assets/evil ass spioke.png" id="4_pkvle"]
@@ -9,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="7_ag1uj"]
 [ext_resource type="Script" uid="uid://dg8xy3ivai3y0" path="res://mighty_hand.gd" id="8_you3h"]
 [ext_resource type="Texture2D" uid="uid://dctv7lmf5x3vb" path="res://game assets/New Piskel-3.png.png" id="9_ppvcm"]
+[ext_resource type="Script" uid="uid://dixvhgniyy7pt" path="res://spikes.gd" id="11_j1xc6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iegx"]
 texture = ExtResource("2_sd8pv")
@@ -1386,7 +1388,23 @@ size = Vector2(73, 97)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jivae"]
 size = Vector2(142, 33.5)
 
-[node name="Node2D" type="Node2D" unique_id=1887493103]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
+size = Vector2(195.5, 302)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
+size = Vector2(103, 60)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ef4i"]
+size = Vector2(825, 151)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
+size = Vector2(100, 52)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w10cd"]
+size = Vector2(189, 74)
+
+[node name="lvl 4" type="Node2D" unique_id=1887493103]
+script = ExtResource("1_sd8pv")
 
 [node name="DaSkyi" type="Sprite2D" parent="." unique_id=1588626936]
 position = Vector2(576, 324.00003)
@@ -1425,3 +1443,28 @@ texture = ExtResource("9_ppvcm")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Mighty Hand" unique_id=255555290]
 position = Vector2(675, 567)
 shape = SubResource("RectangleShape2D_jivae")
+
+[node name="Spikes" type="Area2D" parent="." unique_id=1456873082]
+script = ExtResource("11_j1xc6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=26567027]
+position = Vector2(943.75, 149)
+shape = SubResource("RectangleShape2D_r7ajf")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=668104199]
+position = Vector2(556.5, 321)
+shape = SubResource("RectangleShape2D_iei88")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Spikes" unique_id=1876229714]
+position = Vector2(593.5, 744.5)
+shape = SubResource("RectangleShape2D_3ef4i")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Spikes" unique_id=2098978708]
+position = Vector2(336, 316)
+shape = SubResource("RectangleShape2D_ieji5")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Spikes" unique_id=766023120]
+position = Vector2(610.5, 398)
+shape = SubResource("RectangleShape2D_w10cd")
+
+[connection signal="body_entered" from="Spikes" to="." method="_on_spikes_body_entered"]
