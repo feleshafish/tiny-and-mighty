@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ouq6scssbikn"]
+
+[ext_resource type="Texture2D" uid="uid://03u53haoroj" path="res://game assets/da_skyi.webp" id="1_3pvbq"]
+
+[node name="Node2D" type="Node2D" unique_id=1756877861]
+
+[node name="DaSkyi" type="Sprite2D" parent="." unique_id=693651164]
+position = Vector2(576, 324.00003)
+scale = Vector2(1.0230906, 1.007776)
+texture = ExtResource("1_3pvbq")
