@@ -1389,19 +1389,19 @@ size = Vector2(73, 97)
 size = Vector2(142, 33.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
-size = Vector2(195.5, 302)
+size = Vector2(204.5, 324)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
-size = Vector2(103, 60)
+size = Vector2(103, 70)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3ef4i"]
 size = Vector2(825, 151)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
-size = Vector2(100, 52)
+size = Vector2(107, 71)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w10cd"]
-size = Vector2(189, 74)
+size = Vector2(208, 74)
 
 [node name="lvl 4" type="Node2D" unique_id=1887493103]
 script = ExtResource("1_sd8pv")
@@ -1448,11 +1448,11 @@ shape = SubResource("RectangleShape2D_jivae")
 script = ExtResource("11_j1xc6")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=26567027]
-position = Vector2(943.75, 149)
+position = Vector2(939.25, 160)
 shape = SubResource("RectangleShape2D_r7ajf")
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=668104199]
-position = Vector2(556.5, 321)
+position = Vector2(556.5, 326)
 shape = SubResource("RectangleShape2D_iei88")
 
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Spikes" unique_id=1876229714]
@@ -1460,11 +1460,11 @@ position = Vector2(593.5, 744.5)
 shape = SubResource("RectangleShape2D_3ef4i")
 
 [node name="CollisionShape2D4" type="CollisionShape2D" parent="Spikes" unique_id=2098978708]
-position = Vector2(336, 316)
+position = Vector2(339.5, 306.5)
 shape = SubResource("RectangleShape2D_ieji5")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="Spikes" unique_id=766023120]
-position = Vector2(610.5, 398)
+position = Vector2(601, 398)
 shape = SubResource("RectangleShape2D_w10cd")
 
 [connection signal="body_entered" from="Spikes" to="." method="_on_spikes_body_entered"]
