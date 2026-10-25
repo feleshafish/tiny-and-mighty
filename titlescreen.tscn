@@ -15,6 +15,12 @@ grow_vertical = 2
 theme = SubResource("Theme_exjfu")
 script = ExtResource("1_cjnew")
 
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1575726208]
+layout_mode = 0
+offset_right = 1153.0
+offset_bottom = 651.0
+color = Color(0.57254905, 0.70980394, 0.85882354, 1)
+
 [node name="StartButton" type="Button" parent="." unique_id=288856672]
 layout_mode = 1
 anchors_preset = 8
@@ -22,13 +28,16 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -102.5
-offset_top = -33.0
-offset_right = 102.5
-offset_bottom = 33.0
+offset_left = -109.6875
+offset_top = -38.625
+offset_right = 109.6875
+offset_bottom = 38.625
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.31764707, 0.3019608, 0.2901961, 1)
 theme_override_fonts/font = ExtResource("2_goadl")
+theme_override_font_sizes/font_size = 40
 text = "Start"
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
