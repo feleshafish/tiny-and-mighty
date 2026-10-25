@@ -10,6 +10,7 @@
 [ext_resource type="Script" uid="uid://07u3hamh1byp" path="res://leprechaun.gd" id="7_1l147"]
 [ext_resource type="Texture2D" uid="uid://mm33rw8o6ek1" path="res://game assets/leprechaun sprite-1.png.png" id="8_yab02"]
 [ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="9_gr6wq"]
+[ext_resource type="Script" uid="uid://dixvhgniyy7pt" path="res://spikes.gd" id="11_1l147"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_arg7j"]
 texture = ExtResource("2_54lrk")
@@ -1330,6 +1331,21 @@ size = Vector2(72, 97.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
 size = Vector2(689, 193)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
+size = Vector2(95.25, 113.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3ef4i"]
+size = Vector2(607.5, 106.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
+size = Vector2(117, 131)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w10cd"]
+size = Vector2(56, 77.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gb6tw"]
+size = Vector2(29, 74)
+
 [node name="lv3" type="Node2D" unique_id=1155211408]
 script = ExtResource("1_yk7la")
 
@@ -1369,8 +1385,29 @@ physics_interpolation_mode = 1
 position = Vector2(118, 386.25)
 shape = SubResource("RectangleShape2D_q8fjq")
 
-[node name="Area2D" type="Area2D" parent="." unique_id=1188594054]
+[node name="Spikes" type="Area2D" parent="." unique_id=1188594054]
+script = ExtResource("11_1l147")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1402829126]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=1402829126]
 position = Vector2(851.5, 286.5)
 shape = SubResource("RectangleShape2D_r7ajf")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=238900142]
+position = Vector2(110.375, 592.25)
+shape = SubResource("RectangleShape2D_iei88")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Spikes" unique_id=1975461404]
+position = Vector2(679.25, 694.75)
+shape = SubResource("RectangleShape2D_3ef4i")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Spikes" unique_id=941620271]
+position = Vector2(266.5, 578.5)
+shape = SubResource("RectangleShape2D_ieji5")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Spikes" unique_id=1673380376]
+position = Vector2(951, 638.75)
+shape = SubResource("RectangleShape2D_w10cd")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="Spikes" unique_id=2119079728]
+position = Vector2(952, 581)
+shape = SubResource("RectangleShape2D_gb6tw")
