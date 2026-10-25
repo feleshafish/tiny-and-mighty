@@ -3,10 +3,11 @@ Tiny the leprechaun is trying to get his money and funny up by filling up his ba
 He was about to give up until.. The MIGHTY HAND appeared to help this little leprechaun.
 With the help of Tiny and Mighty, go on a short, fun adventure as they collect coins!
 
+This was made for jame gam game jam October 2026, by Hack Club! We made the game in about 13 hours. :D
+
 **Credits:**
 
 Made with Godot 4.7
-Made for jame gam game jam October 2026, by Hack Club!
 
 Music: https://pixabay.com/music/electronic-reassuring-smoke-sparkles-lou-gamonesparkle...
 Font: Kondusif
