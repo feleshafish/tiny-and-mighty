@@ -5,8 +5,19 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -500.0
 
 
+
 @onready var player_sprite = $AnimatedSprite2D
 
+func _ready() -> void:
+	var sprite = $AnimatedSprite2D
+
+	sprite.visible = true
+	sprite.modulate = Color.WHITE
+	sprite.self_modulate = Color.WHITE
+	sprite.z_index = 10
+	
+	sprite.play()
+	
 #animated movement
 func _process(_delta):
 	if Input.is_action_pressed("walk_left"):
