@@ -12,7 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://dteprjoaeavqd" path="res://game assets/leprechaun sprite-2.png.png" id="9_gr6wq"]
 [ext_resource type="Script" uid="uid://dixvhgniyy7pt" path="res://spikes.gd" id="11_1l147"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_arg7j"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1l147"]
 texture = ExtResource("2_54lrk")
 texture_region_size = Vector2i(10, 10)
 0:0/0 = 0
@@ -921,7 +921,7 @@ texture_region_size = Vector2i(10, 10)
 16:48/0 = 0
 16:49/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yk7la"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yab02"]
 texture = ExtResource("3_gfe5q")
 texture_region_size = Vector2i(10, 10)
 1:20/0 = 0
@@ -1175,7 +1175,7 @@ texture_region_size = Vector2i(10, 10)
 3:48/0 = 0
 3:49/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1l147"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_gr6wq"]
 texture = ExtResource("4_s3sri")
 texture_region_size = Vector2i(10, 10)
 1:8/0 = 0
@@ -1283,9 +1283,9 @@ texture_region_size = Vector2i(10, 10)
 [sub_resource type="TileSet" id="TileSet_gtqoq"]
 tile_size = Vector2i(10, 10)
 physics_layer_0/collision_layer = 1
-sources/0 = SubResource("TileSetAtlasSource_arg7j")
-sources/1 = SubResource("TileSetAtlasSource_yk7la")
-sources/2 = SubResource("TileSetAtlasSource_1l147")
+sources/0 = SubResource("TileSetAtlasSource_1l147")
+sources/1 = SubResource("TileSetAtlasSource_yab02")
+sources/2 = SubResource("TileSetAtlasSource_gr6wq")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0d7u6"]
 size = Vector2(142, 33.5)
