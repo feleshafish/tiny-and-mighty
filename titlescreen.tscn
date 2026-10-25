@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://cxly644w8gljj"]
 
 [ext_resource type="Script" uid="uid://beiknheafyph6" path="res://titlescreen.gd" id="1_cjnew"]
+[ext_resource type="Texture2D" uid="uid://dy6r02n61jme" path="res://game assets/title.svg" id="2_8pdex"]
 [ext_resource type="FontFile" uid="uid://brvmxqw6sn5o7" path="res://Kondusif.ttf" id="2_goadl"]
+[ext_resource type="Texture2D" uid="uid://dpyle575v7te6" path="res://game assets/pot_o_gold.png" id="3_hxypl"]
 
 [sub_resource type="Theme" id="Theme_exjfu"]
 
@@ -21,6 +23,37 @@ offset_right = 1153.0
 offset_bottom = 651.0
 color = Color(0.57254905, 0.70980394, 0.85882354, 1)
 
+[node name="title" type="TextureRect" parent="." unique_id=895399228]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -1180.0
+offset_top = -557.0
+offset_right = -360.8
+offset_bottom = 467.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("2_8pdex")
+expand_mode = 3
+
+[node name="potogold" type="TextureRect" parent="." unique_id=1881802190]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -491.0
+offset_top = -150.0
+offset_right = -191.0
+offset_bottom = 150.0
+grow_horizontal = 0
+grow_vertical = 2
+texture = ExtResource("3_hxypl")
+
 [node name="StartButton" type="Button" parent="." unique_id=288856672]
 layout_mode = 1
 anchors_preset = 8
@@ -28,10 +61,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -109.6875
-offset_top = -43.3125
-offset_right = 109.6875
-offset_bottom = 43.3125
+offset_left = -354.0
+offset_top = 68.0
+offset_right = -134.625
+offset_bottom = 154.625
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
