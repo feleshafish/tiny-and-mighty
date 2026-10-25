@@ -1238,90 +1238,17 @@ texture_region_size = Vector2i(10, 10)
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_55bbh"]
 texture = ExtResource("4_pkvle")
 texture_region_size = Vector2i(10, 10)
-2:1/0 = 0
-2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-2:2/0 = 0
-2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-2:3/0 = 0
-2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-1:4/0 = 0
-1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-2:4/0 = 0
-2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-1:5/0 = 0
-1:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-2:5/0 = 0
-2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-0:6/0 = 0
-1:6/0 = 0
-1:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-2:6/0 = 0
-2:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-0:7/0 = 0
-0:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-1:7/0 = 0
-2:7/0 = 0
-2:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-0:8/0 = 0
-0:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-1:8/0 = 0
-2:8/0 = 0
-2:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-0:9/0 = 0
-1:9/0 = 0
-2:9/0 = 0
-0:10/0 = 0
-1:10/0 = 0
-2:10/0 = 0
-0:11/0 = 0
-1:11/0 = 0
 2:11/0 = 0
-3:1/0 = 0
-3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:2/0 = 0
-3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:3/0 = 0
-3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:4/0 = 0
-3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:5/0 = 0
-3:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:6/0 = 0
-3:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-3:7/0 = 0
-3:8/0 = 0
-3:9/0 = 0
-3:10/0 = 0
 3:11/0 = 0
 3:12/0 = 0
 4:12/0 = 0
 4:11/0 = 0
-4:10/0 = 0
-4:9/0 = 0
-4:8/0 = 0
-4:7/0 = 0
-4:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-4:6/0 = 0
-4:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-4:5/0 = 0
-4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-4:4/0 = 0
-4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-5:6/0 = 0
-5:7/0 = 0
-5:7/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-5:8/0 = 0
-5:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
-5:9/0 = 0
-5:10/0 = 0
-5:11/0 = 0
 5:12/0 = 0
 5:13/0 = 0
 0:13/0 = 0
 1:12/0 = 0
 2:12/0 = 0
 1:13/0 = 0
-0:12/0 = 0
 4:13/0 = 0
 3:13/0 = 0
 2:13/0 = 0
@@ -1355,10 +1282,76 @@ texture_region_size = Vector2i(10, 10)
 4:18/0 = 0
 3:18/0 = 0
 0:16/0 = 0
-4:3/0 = 0
-4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-5, -5, 5, -5, 5, 5, -5, 5)
 3:0/0 = 0
 2:0/0 = 0
+2:1/0 = 0
+2:2/0 = 0
+2:3/0 = 0
+1:3/0 = 0
+1:4/0 = 0
+1:5/0 = 0
+1:6/0 = 0
+3:2/0 = 0
+3:3/0 = 0
+3:4/0 = 0
+2:5/0 = 0
+2:6/0 = 0
+2:7/0 = 0
+1:7/0 = 0
+1:8/0 = 0
+2:4/0 = 0
+3:1/0 = 0
+3:5/0 = 0
+4:6/0 = 0
+4:5/0 = 0
+4:4/0 = 0
+4:2/0 = 0
+4:3/0 = 0
+5:5/0 = 0
+5:6/0 = 0
+5:7/0 = 0
+3:7/0 = 0
+0:9/0 = 0
+0:10/0 = 0
+0:11/0 = 0
+0:12/0 = 0
+1:10/0 = 0
+1:9/0 = 0
+1:11/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+2:9/0 = 0
+3:6/0 = 0
+5:4/0 = 0
+4:7/0 = 0
+4:8/0 = 0
+4:9/0 = 0
+4:10/0 = 0
+5:8/0 = 0
+5:9/0 = 0
+5:10/0 = 0
+5:11/0 = 0
+2:10/0 = 0
+0:8/0 = 0
+0:7/0 = 0
+0:6/0 = 0
+0:5/0 = 0
+0:4/0 = 0
+0:3/0 = 0
+3:9/0 = 0
+3:10/0 = 0
+5:3/0 = 0
+5:2/0 = 0
+5:1/0 = 0
+5:0/0 = 0
+1:2/0 = 0
+0:2/0 = 0
+1:1/0 = 0
+4:1/0 = 0
+4:0/0 = 0
+0:1/0 = 0
+1:0/0 = 0
+0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_fn4nt"]
 tile_size = Vector2i(10, 10)
@@ -1390,14 +1383,8 @@ size = Vector2(142, 33.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_r7ajf"]
 size = Vector2(191.5, 300)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_iei88"]
-size = Vector2(95, 28)
-
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3ef4i"]
 size = Vector2(813.5, 151)
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ieji5"]
-size = Vector2(98, 30)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_w10cd"]
 size = Vector2(194, 74)
@@ -1449,21 +1436,17 @@ shape = SubResource("RectangleShape2D_jivae")
 [node name="Spikes" type="Area2D" parent="." unique_id=1456873082]
 script = ExtResource("11_j1xc6")
 
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="Spikes" unique_id=596531277]
+position = Vector2(219, 1)
+polygon = PackedVector2Array(292, 318, 301, 289, 381, 289, 390, 318)
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Spikes" unique_id=26567027]
 position = Vector2(945.75, 148)
 shape = SubResource("RectangleShape2D_r7ajf")
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Spikes" unique_id=668104199]
-position = Vector2(560.5, 305)
-shape = SubResource("RectangleShape2D_iei88")
-
 [node name="CollisionShape2D3" type="CollisionShape2D" parent="Spikes" unique_id=1876229714]
 position = Vector2(573.25, 622)
 shape = SubResource("RectangleShape2D_3ef4i")
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="Spikes" unique_id=2098978708]
-position = Vector2(341, 304)
-shape = SubResource("RectangleShape2D_ieji5")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="Spikes" unique_id=766023120]
 position = Vector2(608, 398)
@@ -1472,5 +1455,8 @@ shape = SubResource("RectangleShape2D_w10cd")
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="Spikes" unique_id=416104661]
 position = Vector2(231.5, 520.5)
 shape = SubResource("RectangleShape2D_gtqoq")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spikes" unique_id=317400914]
+polygon = PackedVector2Array(292, 318, 301, 289, 381, 289, 390, 318)
 
 [connection signal="body_entered" from="Spikes" to="." method="_on_spikes_body_entered"]
