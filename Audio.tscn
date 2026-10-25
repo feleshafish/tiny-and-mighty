@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bywg4e0h2qj4i"]
+
+[ext_resource type="AudioStream" uid="uid://oepdrqan4bee" path="res://lougamone-reassuring-smoke-lou-gamone-scdler-339575.mp3" id="1_ml5b6"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" unique_id=1493040554]
+stream = ExtResource("1_ml5b6")
+autoplay = true
