@@ -11,6 +11,9 @@
 [ext_resource type="Script" uid="uid://dg8xy3ivai3y0" path="res://mighty_hand.gd" id="8_you3h"]
 [ext_resource type="Texture2D" uid="uid://dctv7lmf5x3vb" path="res://game assets/New Piskel-3.png.png" id="9_ppvcm"]
 [ext_resource type="Script" uid="uid://dixvhgniyy7pt" path="res://spikes.gd" id="11_j1xc6"]
+[ext_resource type="Script" uid="uid://b1saco1vh813w" path="res://coinnn_1.gd" id="12_l36cr"]
+[ext_resource type="PackedScene" uid="uid://cwqvlxrmr84mt" path="res://END.tscn" id="13_ag1uj"]
+[ext_resource type="Texture2D" uid="uid://ncw31uwgqou0" path="res://game assets/coin.png" id="14_you3h"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3iegx"]
 texture = ExtResource("2_sd8pv")
@@ -1392,6 +1395,8 @@ size = Vector2(194, 74)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_gtqoq"]
 size = Vector2(85, 51)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ppvcm"]
+
 [node name="lvl 4" type="Node2D" unique_id=1887493103]
 script = ExtResource("1_sd8pv")
 
@@ -1458,5 +1463,20 @@ shape = SubResource("RectangleShape2D_gtqoq")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Spikes" unique_id=317400914]
 polygon = PackedVector2Array(292, 318, 301, 289, 381, 289, 390, 318)
+
+[node name="coinnn1" type="Area2D" parent="." unique_id=189399120]
+position = Vector2(1075, 343)
+scale = Vector2(2.96875, 2.6875)
+script = ExtResource("12_l36cr")
+next_scene = ExtResource("13_ag1uj")
+
+[node name="Coin" type="Sprite2D" parent="coinnn1" unique_id=1304415515]
+position = Vector2(-3.8736844, 83.72093)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("14_you3h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="coinnn1" unique_id=2106564275]
+position = Vector2(-3.8736844, 83.72093)
+shape = SubResource("RectangleShape2D_ppvcm")
 
 [connection signal="body_entered" from="Spikes" to="." method="_on_spikes_body_entered"]

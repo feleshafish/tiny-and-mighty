@@ -11,6 +11,9 @@
 [ext_resource type="Texture2D" uid="uid://1apfmej8326t" path="res://game assets/pillv2 (1).png" id="8_21qqo"]
 [ext_resource type="Texture2D" uid="uid://flfeqtgq1yy4" path="res://game assets/evil ass spioke.png" id="9_saumg"]
 [ext_resource type="Script" uid="uid://0ed8kotinqqk" path="res://spike.gd" id="11_kc426"]
+[ext_resource type="Script" uid="uid://b1saco1vh813w" path="res://coinnn_1.gd" id="12_imiln"]
+[ext_resource type="PackedScene" uid="uid://bpjor3ghdpt5n" path="res://lv_4.tscn" id="13_21qqo"]
+[ext_resource type="Texture2D" uid="uid://ncw31uwgqou0" path="res://game assets/coin.png" id="14_saumg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_qs1uk"]
 animations = [{
@@ -1384,6 +1387,8 @@ size = Vector2(93, 366.5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bwhgv"]
 size = Vector2(125, 278)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qs1uk"]
+
 [node name="Lvl 5" type="Node2D" unique_id=1756877861]
 script = ExtResource("1_u706t")
 
@@ -1466,5 +1471,20 @@ polygon = PackedVector2Array(860, 149, 958, 179, 872, 208, 860, 208)
 
 [node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="Spikes" unique_id=984418716]
 polygon = PackedVector2Array(188, 638, 192, 630, 201, 639)
+
+[node name="coinnn1" type="Area2D" parent="." unique_id=973839426]
+position = Vector2(1075, 343)
+scale = Vector2(2.96875, 2.6875)
+script = ExtResource("12_imiln")
+next_scene = ExtResource("13_21qqo")
+
+[node name="Coin" type="Sprite2D" parent="coinnn1" unique_id=1682011316]
+position = Vector2(-317.4737, 95.25581)
+scale = Vector2(1, 1.0000001)
+texture = ExtResource("14_saumg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="coinnn1" unique_id=649959481]
+position = Vector2(-317.4737, 95.25581)
+shape = SubResource("RectangleShape2D_qs1uk")
 
 [connection signal="body_entered" from="Spikes" to="." method="_on_spike_body_entered"]
