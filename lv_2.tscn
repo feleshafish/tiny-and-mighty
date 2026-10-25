@@ -1249,7 +1249,7 @@ position = Vector2(115.25, 386.75)
 scale = Vector2(0.47, 0.46599993)
 sprite_frames = SubResource("SpriteFrames_uxc53")
 animation = &"run"
-speed_scale = 0.5
+frame_progress = 0.39611086
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Leprechaun" unique_id=1292572088]
 physics_interpolation_mode = 1
